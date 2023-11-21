@@ -22,6 +22,8 @@ client.StartListening(); // Starts listening for ArtNet asynchronously
 
 ### Supplementary info
 
-For now, this library is solely for parsing incoming ArtNet DMX data packets. It currently does not support Rdm or any other part of the ArtNet standard (aside from some cursory support for reading poll packets). If you just need a dead-simple solution to receive DMX data - you've come to the right place. If you need to send ArtNet data for whatever reason then you're gonna need a little more elbow grease.
+This project knows it's scope and is provided as-is. For now, this library is solely for parsing incoming ArtNet DMX data packets. It currently does not support Rdm or any other part of the ArtNet standard (aside from some cursory support for reading poll packets). If you just *need* a dead-simple solution to receive DMX data - you've come to the right place. If you need to send ArtNet data for whatever reason then you're gonna need a little more elbow grease.
 
-I created this library because I needed a way to easily parse ArtNet data and had issues making existing libraries work on the .NET version (4.7.2) I need. I'm also tired of these kinds of networking libraries being more complicated than they need to be. This project knows it's scope and is provided as-is.
+I created this library because I needed a way to easily parse ArtNet data and had issues making existing libraries work on the .NET version (4.7.2) I need. I'm also tired of these kinds of networking libraries being more complicated than they need to be.
+
+This library is also probably not a performance horse, but it shouldn't be a slouch either. Just don't expect enterprise-grade scalability.

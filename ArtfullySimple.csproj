@@ -5,6 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <Authors>Cyro</Authors>
+    <Product>ArtfullySimple</Product>
+    <Description>Dead-Simple ArtNet parsing. No strings attached.</Description>
+    <Copyright>Copyright (c) 2023 Riley Fields</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

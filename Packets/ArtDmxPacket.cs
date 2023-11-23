@@ -1,4 +1,3 @@
-using System.Buffers.Binary;
 
 namespace ArtfullySimple;
 
@@ -8,7 +7,7 @@ public class ArtDmxPacket : ArtNetPacket
     {
         Sequence = reader.ReadByte();
         Physical = reader.ReadByte();
-        Universe = BinaryPrimitives.ReverseEndianness(reader.ReadShort()); // Universe is sent Low-High instead of High-Low, annoying.
+        Universe = reader.ReadShortLowFirst(); // Universe is sent Low-High instead of High-Low, annoying.
         Length = reader.ReadShort();
         DMX = reader.ReadBytes(Length);
     }

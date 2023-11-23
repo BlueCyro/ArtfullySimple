@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Buffers.Binary;
+using System.Net;
 
 namespace ArtfullySimple;
 
@@ -7,6 +8,11 @@ public class ArtNetReader(ArtNetInfo input) : BinaryReader(new MemoryStream(inpu
     public ushort ReadShort()
     {
         return (ushort)IPAddress.NetworkToHostOrder(ReadInt16());
+    }
+    
+    public ushort ReadShortLowFirst()
+    {
+        return BinaryPrimitives.ReverseEndianness(ReadShort());
     }
 
     new public ArraySegment<byte> ReadBytes(int length)

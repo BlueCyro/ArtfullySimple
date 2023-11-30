@@ -12,7 +12,7 @@ public abstract class ArtNetPacket
     {
         Type packetType = typeof(ArtNetPacket);
 
-        _packetMap = 
+        _packetMap = // Find all packets with the opcode attribute and make an efficient lookup to instantiate different types of packets dynamically
             packetType
                 .Assembly.GetTypes()
                 .Where(t => t.IsSubclassOf(packetType) && !t.IsAbstract)

@@ -12,3 +12,4 @@ C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\obj\Release\net472\ArtfullyS
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\obj\Release\net472\ArtfullySimple.csproj.CopyComplete
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\obj\Release\net472\ArtfullySimple.dll
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\obj\Release\net472\ArtfullySimple.pdb
+C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\System.Collections.Immutable.dll

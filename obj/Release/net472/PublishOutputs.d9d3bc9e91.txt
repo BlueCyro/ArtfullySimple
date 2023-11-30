@@ -1,6 +1,7 @@
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\publish\ArtfullySimple.dll
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\publish\ArtfullySimple.pdb
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\publish\System.Buffers.dll
+C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\publish\System.Collections.Immutable.dll
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\publish\System.Memory.dll
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\publish\System.Numerics.Vectors.dll
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\publish\System.Runtime.CompilerServices.Unsafe.dll

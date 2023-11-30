@@ -1,5 +1,6 @@
 namespace ArtfullySimple;
 
+[ArtOpCode(ArtOp.OpPoll, typeof(ArtPollPacket))]
 public class ArtPollPacket : ArtNetPacket
 {
     public ArtPollPacket(ArtNetReader reader) : base(reader)

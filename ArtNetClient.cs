@@ -33,7 +33,7 @@ public class ArtNetClient(IPAddress ip) : UdpClient(new IPEndPoint(ip, 6454))
             
             ArtNetReader reader = new(info);
 
-            if (reader.DecodePacket() is ArtNetPacket packet)
+            if (reader.TryDecodePacket(out ArtNetPacket packet))
                 ReceivedPacket?.Invoke(this, packet);
         }
     }

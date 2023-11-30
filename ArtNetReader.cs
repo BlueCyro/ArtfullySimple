@@ -1,4 +1,5 @@
 ﻿using System.Buffers.Binary;
+using System.Linq.Expressions;
 using System.Net;
 
 namespace ArtfullySimple;
@@ -10,7 +11,7 @@ public class ArtNetReader(ArtNetInfo input) : BinaryReader(new MemoryStream(inpu
         return (ushort)IPAddress.NetworkToHostOrder(ReadInt16());
     }
     
-    public ushort ReadShortLowFirst()
+    public ushort ReadShortLittleEndian()
     {
         return BinaryPrimitives.ReverseEndianness(ReadShort());
     }
@@ -23,13 +24,14 @@ public class ArtNetReader(ArtNetInfo input) : BinaryReader(new MemoryStream(inpu
         return segView;
     }
 
-    public ArtNetPacket? DecodePacket()
-    {        
-        return input.OpCode switch
-        {
-            ArtOp.OpDmx => new ArtDmxPacket(this),
-            ArtOp.OpPoll => new ArtPollPacket(this),
-            _ => new(this),
-        };
+    // If you're wondering about the weird use of '!', it's because I
+    // don't have the fancy "NotNullIfTrue" attributes in net472 v.v
+    public bool TryDecodePacket(out ArtNetPacket packet) 
+    {
+        ArtNetPacket.TryGetPacket(input.OpCode, out var newPacket);
+
+        packet = newPacket?.Invoke(this)!;
+
+        return packet != null;
     }
 }

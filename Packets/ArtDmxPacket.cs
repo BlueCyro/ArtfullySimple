@@ -1,4 +1,3 @@
-
 namespace ArtfullySimple;
 
 [ArtOpCode(ArtOp.OpDmx, typeof(ArtDmxPacket))]

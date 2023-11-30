@@ -1,4 +1,3 @@
-
 namespace ArtfullySimple;
 
 public class ArtOpCodeAttribute(ArtOp opcode, Type t) : Attribute

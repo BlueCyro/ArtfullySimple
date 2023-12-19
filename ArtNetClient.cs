@@ -5,7 +5,7 @@ namespace ArtfullySimple;
 
 public class ArtNetClient(IPAddress ip) : UdpClient(new IPEndPoint(ip, 6454))
 {
-    public EventHandler<ArtNetPacket>? ReceivedPacket;
+    public event EventHandler<ArtNetPacket>? ReceivedPacket;
     CancellationTokenSource tkSrc = new();
     public bool IsListening => _listening;
     private bool _listening;

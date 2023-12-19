@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z+q0/OBWhFhZjCbmBmOsT/6FxOpwyvf1RX+ZEyXZnc5p+odi7NRn4sZAhvrSVHqCCrhORtC595pIwbc6XRkrog==",
+  "dgSpecHash": "LpxOeBiLMTWfLrf+ReuCL/ztMqXjOiNEaaTZaIzNLUI89MmFLIBrVQY+bm1CuzYh0sgqaIVa7N/JG5AM+XGxOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\ArtfullySimple\\ArtfullySimple.csproj",
+  "projectFilePath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\ArtfullySimple.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cyro\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Cyro\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

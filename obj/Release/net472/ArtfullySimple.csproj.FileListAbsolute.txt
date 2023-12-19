@@ -13,3 +13,19 @@ C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\obj\Release\net472\ArtfullyS
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\obj\Release\net472\ArtfullySimple.dll
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\obj\Release\net472\ArtfullySimple.pdb
 C:\Users\Cyro\Documents\Coding Stuff\ArtfullySimple\bin\Release\net472\System.Collections.Immutable.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\bin\Release\net472\ArtfullySimple.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\bin\Release\net472\ArtfullySimple.pdb
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\bin\Release\net472\System.Buffers.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\bin\Release\net472\System.Collections.Immutable.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\bin\Release\net472\System.Memory.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\bin\Release\net472\System.Numerics.Vectors.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\bin\Release\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.csproj.AssemblyReference.cache
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.AssemblyInfoInputs.cache
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.AssemblyInfo.cs
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.csproj.CoreCompileInputs.cache
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.sourcelink.json
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.csproj.CopyComplete
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.dll
+C:\Users\Cyro\Documents\Coding Stuff\Cyro Libraries\ArtfullySimple\obj\Release\net472\ArtfullySimple.pdb

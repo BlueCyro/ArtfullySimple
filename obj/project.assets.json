@@ -3410,11 +3410,11 @@
   "project": {
     "version": "1.0.2",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\ArtfullySimple\\ArtfullySimple.csproj",
+      "projectUniqueName": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\ArtfullySimple.csproj",
       "projectName": "ArtfullySimple",
-      "projectPath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\ArtfullySimple\\ArtfullySimple.csproj",
+      "projectPath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\ArtfullySimple.csproj",
       "packagesPath": "C:\\Users\\Cyro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\ArtfullySimple\\obj\\",
+      "outputPath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -3462,7 +3462,7 @@
             "version": "[4.3.4, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       },
       "netstandard2.1": {
         "targetAlias": "netstandard2.1",
@@ -3496,7 +3496,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

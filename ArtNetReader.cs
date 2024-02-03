@@ -30,7 +30,6 @@ public class ArtNetReader(ArtNetInfo input) : BinaryReader(new MemoryStream(inpu
         ArtNetPacket.TryGetPacket(input.OpCode, out var newPacket);
 
         packet = newPacket?.Invoke(this)!;
-
         return packet != null;
     }
 }

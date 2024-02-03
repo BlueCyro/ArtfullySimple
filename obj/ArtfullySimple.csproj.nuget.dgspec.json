@@ -1,29 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\ArtfullySimple.csproj": {}
+    "/run/media/cyro/E0EAC8C6EAC899E4/Users/Cyro/Documents/Coding Stuff/Cyro Libraries/ArtfullySimple/ArtfullySimple.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\ArtfullySimple.csproj": {
+    "/run/media/cyro/E0EAC8C6EAC899E4/Users/Cyro/Documents/Coding Stuff/Cyro Libraries/ArtfullySimple/ArtfullySimple.csproj": {
       "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\ArtfullySimple.csproj",
+        "projectUniqueName": "/run/media/cyro/E0EAC8C6EAC899E4/Users/Cyro/Documents/Coding Stuff/Cyro Libraries/ArtfullySimple/ArtfullySimple.csproj",
         "projectName": "ArtfullySimple",
-        "projectPath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\ArtfullySimple.csproj",
-        "packagesPath": "C:\\Users\\Cyro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cyro\\Documents\\Coding Stuff\\Cyro Libraries\\ArtfullySimple\\obj\\",
+        "projectPath": "/run/media/cyro/E0EAC8C6EAC899E4/Users/Cyro/Documents/Coding Stuff/Cyro Libraries/ArtfullySimple/ArtfullySimple.csproj",
+        "packagesPath": "/home/cyro/.nuget/packages/",
+        "outputPath": "/run/media/cyro/E0EAC8C6EAC899E4/Users/Cyro/Documents/Coding Stuff/Cyro Libraries/ArtfullySimple/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\Cyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/cyro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472",
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +44,12 @@
         "net472": {
           "targetAlias": "net472",
           "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "System.Collections.Immutable": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -59,7 +63,7 @@
               "version": "[4.3.4, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
         },
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
@@ -93,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2023 Riley Fields")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Dead-Simple ArtNet parsing. No strings attached.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3+0272fe6bf14811872087be8142b22d7a54509619")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3+419f08691b7e26f62b5f830f301ffc2609c96790")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtfullySimple")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtfullySimple")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.3")]
